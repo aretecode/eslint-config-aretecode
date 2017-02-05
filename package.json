@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-aretecode",
+  "description": "an opinionated ESLint configuration",
+  "version": "1.0.0",
+  "author": "James <aretecode@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/aretecode/eslint-config-aretecode/issues"
+  },
+  "dependencies": {
+    "eslint-plugin-flowtype-errors": "^3.0.0",
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.14.1",
+    "eslint-loader": "1.6.1",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-no-for-each": "^0.1.14",
+    "eslint-plugin-prefer-includes": "^0.0.1",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "homepage": "https://github.com/aretecode/eslint-config-aretecode",
+  "keywords": [
+    "config",
+    "es6",
+    "es2017",
+    "eslint",
+    "eslint-config",
+    "eslint-config-aretecode",
+    "aretecode",
+    "babel-eslint",
+    "eslintconfig",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aretecode/eslint-config-aretecode"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  }
+}
