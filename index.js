@@ -219,7 +219,8 @@ module.exports = {
     // https://github.com/airbnb/javascript#whitespace--max-len
     'max-len': [
       'warn',
-      80, {
+      {
+        'code': 80,
         'ignoreComments': true,
         'ignoreUrls': true,
         'ignoreTemplateLiterals': true,
