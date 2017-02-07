@@ -10,7 +10,7 @@
 First add the configuration to your `package.json` file:
 
 ```bash
-npm i --save-dev eslint-config-aretecode
+npm i --save-dev eslint-config-aretecode eslint babel-eslint
 ```
 
 Then create a new file called `.eslintrc`, and its contents should be:
